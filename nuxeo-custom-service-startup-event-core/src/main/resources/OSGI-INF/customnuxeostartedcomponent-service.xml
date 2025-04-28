@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<component name="com.acme.ecm.service.CustomNuxeoStartedComponent">
+
+  <require>org.nuxeo.runtime.started</require>
+
+  <implementation class="com.acme.ecm.service.CustomNuxeoStartedComponentImpl" />
+
+  <service>
+    <provide interface="com.acme.ecm.service.CustomNuxeoStartedComponent" />
+  </service>
+</component>

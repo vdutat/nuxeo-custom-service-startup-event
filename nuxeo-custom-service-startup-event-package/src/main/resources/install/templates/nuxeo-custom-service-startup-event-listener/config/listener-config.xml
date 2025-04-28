@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<component name="custom-service-startup-event.listener" >
+
+  <extension target="org.nuxeo.ecm.core.operation.OperationServiceComponent" point="event-handlers">
+    <handler chainId="javascript.nuxeoPlatformStarted" id="nuxeoPlatformStarted">
+      <event>nuxeoPlatformStarted</event>
+    </handler>
+  </extension>
+
+
+  <extension target="org.nuxeo.automation.scripting.internals.AutomationScriptingComponent" point="operation">
+    <scriptedOperation id="javascript.nuxeoPlatformStarted">
+      <inputType>void</inputType>
+      <outputType>void</outputType>
+      <category>javascript</category>
+      <description></description>
+      <script><![CDATA[function run(input, params) {
+  Console.warn('<nuxeoPlatformStarted> ');
+}]]></script>
+    </scriptedOperation>
+  </extension>
+
+</component>
