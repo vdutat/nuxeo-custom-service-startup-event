@@ -2,7 +2,7 @@
 
 ## About / Synopsis
 
-This plugin demonstrate how to implement a new service that produces an event named `nuxeoPlatformStarted` when the **Nuxeo Platform** is started. This allows you to e.g. define an **event Handler** that is triggered by the event, when the **Nuxeo Platform** is up and running.
+This plugin demonstrates how to implement a new service that produces an event named `nuxeoPlatformStarted` when the **Nuxeo Platform** is started. This allows you to e.g. define an **event handler** that is triggered by the event when the **Nuxeo Platform** is up and running.
 
 It was generated with the following commands:
 ```
