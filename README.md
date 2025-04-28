@@ -1,4 +1,5 @@
-# Title / Repository Name
+# nuxeo-custom-service-startup-event
+
 
 ## About / Synopsis
 
@@ -18,7 +19,7 @@ mvn install
 
 ## Table of contents
 
-> * [Title / Repository Name](#title--repository-name)
+> * [nuxeo-custom-service-startup-event](#nuxeo-custom-service-startup-event)
 >   * [About / Synopsis](#about--synopsis)
 >   * [Table of contents](#table-of-contents)
 >   * [Installation](#installation)
